@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.app{
+    max-width: 100vw;
+    max-height: 100vh;
+    padding: 0;
+    margin: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+body h1{
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 2.375rem;
+    color: hsl(0, 0%, 0%);
+}
+
+body, ul, p, h3{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 39%);
+}
