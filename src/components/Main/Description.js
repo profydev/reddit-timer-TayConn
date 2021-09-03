@@ -5,7 +5,7 @@ function Description() {
   return (
     <div className="mainContent__wrapper">
       <div>
-        <h3>How it works</h3>
+        <h3 id="howWorks">How it works</h3>
         <ul>
           <li>We find the 500 top posts from the past year for a subreddit. </li>
           <li>The data is visualized in a heatmap grouped by weekday and hour of the day.</li>
@@ -13,7 +13,7 @@ function Description() {
         </ul>
       </div>
       <div>
-        <h3>About</h3>
+        <h3 id="about">About</h3>
         <p>
           This app was created during a course on&nbsp;
           <a href="www.profy.dev" title="Click here to visit profy.dev">

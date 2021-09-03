@@ -1,0 +1,18 @@
+.footer__wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+    padding: 0 5.06rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo_small{
+    height: 2.25rem;
+    width: auto;
+}

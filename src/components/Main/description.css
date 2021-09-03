@@ -1,14 +1,19 @@
 .mainContent__wrapper{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 6.5rem;
+    gap: 4rem;
 }
 h3{
     padding-left: 0;
 }
 ul{
     padding-left: 1rem;
+}
+
+li:hover{
+    text-decoration: none;
+    cursor: inherit;
 }
