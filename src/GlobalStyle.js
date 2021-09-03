@@ -1,4 +1,6 @@
-const GlobalStyle = `
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
   /** Montserrat Regular **/
   @font-face {
     font-family: "Montserrat";
@@ -47,8 +49,9 @@ const GlobalStyle = `
     font-size: ${(props) => props.theme.font.size.default};
     line-height: ${(props) => props.theme.font.lineHeight.default};
     color: ${(props) => props.theme.color.text};
-    max-width: 100vw;
-    height: auto;
+  }
+
+  #root{
     padding: 0;
     margin: 1rem 0;
     display: flex;
@@ -57,31 +60,5 @@ const GlobalStyle = `
     align-items: center;
     gap: 2rem;
   }
-
-  body h1{
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    font-size: 2.375rem;
-    color: hsl(0, 0%, 0%);
-}
-
-body h3{
-    font-family: 'Bitter', serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: hsl(0, 0%, 0%);
-}
-
-body, ul, p, h3{
-    font-family: 'Montserrat', sans-serif;
-    color: hsl(0, 0%, 39%);
-}
-
-a{
-    color: hsl(208, 100%, 49%);
-    text-decoration: none;
-}
-
 `;
-
 export default GlobalStyle;

@@ -3,8 +3,8 @@ nav{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
-    margin: 1rem 5.06rem 0;
+    margin: 0;
+    gap: 50vw;
 }
 
 .logo {
@@ -29,10 +29,12 @@ nav{
     align-items: center;
     font-size: 1rem;
     list-style-type: none;
-    padding: 0 5.06rem;
+    padding: 0;
 }
-
-li:hover{
+a{
+    color: hsl(0, 0%, 39%);
+}
+a:hover{
     text-decoration: underline;
     cursor: pointer;
 }

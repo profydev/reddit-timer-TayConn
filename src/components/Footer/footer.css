@@ -3,13 +3,14 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    width: 100vw;
-    padding: 0 5.06rem;
+    gap: 33vw;
+    padding: 0;
+    margin: 0;
 }
 
 a{
     text-decoration: none;
+    color: hsl(0, 0%, 39%);
 }
 
 .logo_small{

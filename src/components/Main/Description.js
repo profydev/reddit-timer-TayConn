@@ -5,7 +5,7 @@ function Description() {
   return (
     <div className="mainContent__wrapper">
       <div>
-        <h3 id="howWorks">How it works</h3>
+        <h3 id="howWork">How it works</h3>
         <ul>
           <li>We find the 500 top posts from the past year for a subreddit. </li>
           <li>The data is visualized in a heatmap grouped by weekday and hour of the day.</li>
