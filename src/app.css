@@ -20,7 +20,19 @@ body h1{
     color: hsl(0, 0%, 0%);
 }
 
+body h3{
+    font-family: 'Bitter', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 0%);
+}
+
 body, ul, p, h3{
     font-family: 'Montserrat', sans-serif;
     color: hsl(0, 0%, 39%);
+}
+
+a{
+    color: hsl(208, 100%, 49%);
+    text-decoration: none;
 }
