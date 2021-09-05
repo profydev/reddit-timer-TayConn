@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png';
 
 function Header() {
   return (
-    <heading>
+    <header>
       <nav>
         <HashLink to="/">
           <img className="logo" src={logo} alt="the reddit timer logo" />
@@ -16,7 +16,7 @@ function Header() {
           <HashLink title="Click here to learn more about this app" to="#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>About</HashLink>
         </div>
       </nav>
-    </heading>
+    </header>
   );
 }
 
