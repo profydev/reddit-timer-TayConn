@@ -4,11 +4,11 @@ import logoSmall from '../../assets/logo_small.png';
 
 function Footer() {
   return (
-    <div className="footer__wrapper">
-      <a href="https://github.com/TayConn" alt="Visit My Github">My Github</a>
+    <footer className="footer__wrapper">
+      <a href="www.profy.dev/employers" alt="Profy.dev">Profy.dev</a>
       <img className="logo_small" src={logoSmall} alt="the icon from the reddit search logo" />
-      <p alt="Click here to read the terms and privacy conditions">Terms & Privacy</p>
-    </div>
+      <a href="/terms" alt="Click here to read the terms and privacy conditions">Terms & Privacy</a>
+    </footer>
   );
 }
 
