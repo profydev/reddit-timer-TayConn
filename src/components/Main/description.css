@@ -1,0 +1,31 @@
+.mainContent__wrapper{
+    width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.mainContent__wrapper h3{
+    padding-left: 0;
+    font-size: 1.5rem;
+    color: #000;
+}
+.mainContent__wrapper ul{
+    padding-left: 1rem;
+    color: hsl(0, 0%, 39%);
+}
+
+.mainContent__wrapper p{
+    color: hsl(0, 0%, 39%);
+}
+
+li:hover{
+    text-decoration: none;
+    cursor: inherit;
+}
+
+a{
+    color: hsl(208, 100%, 49%);
+    text-decoration: none;
+}
